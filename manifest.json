@@ -1,0 +1,21 @@
+{
+  "name": "Candle",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Fill forms",
+  "homepage_url": "http://danharper.me",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Send and fill form"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
